@@ -1,0 +1,21 @@
+.Depoiments{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.DepoimentsTitle{
+    font-size: 32px;
+    font-weight: 400;
+    color: var(--color--secondary);
+}
+
+.gallery-depoiments{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+

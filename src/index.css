@@ -1,0 +1,28 @@
+:root{
+  --color--primary: #FF6C25;
+  --color--secondary: #FFF;
+  --color--text: #000;
+  --color--background: #D3D3D3;
+  --font--title: 'Poppings', sans-serif;
+  --font--text: 'Inter', sans-serif;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: var(--font--text);
+  color: var(--color--text);
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: var(--font--title);
+}
+
+.regularP{
+  font-weight: 400;
+  font-size: 16px;
+}
