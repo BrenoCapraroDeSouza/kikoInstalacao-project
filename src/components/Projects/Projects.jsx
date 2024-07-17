@@ -52,6 +52,7 @@ const Projects = () => {
           return (
             <CardImg
               key={img.id}
+              id={img.id}
               src={img.src}
               type={img.type}
               carousel={imgArray}
