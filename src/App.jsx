@@ -1,4 +1,4 @@
-import {Hero, Info, Projects, Resellers, Footer} from './components';
+import { Hero, Info, Projects, Resellers, Footer } from './components';
 
 const App = () => {
   return (
@@ -9,7 +9,7 @@ const App = () => {
       <Resellers />
       <Footer />
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;

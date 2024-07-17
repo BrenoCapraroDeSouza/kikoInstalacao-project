@@ -1,26 +1,25 @@
-.Info{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--color--secondary);
+.Info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color--secondary);
 }
 
-.Arrow{
-    position: relative;
-    top: -0.5px;
+.Arrow {
+  position: relative;
+  top: -0.5px;
 }
 
-.Infotext{
-    margin: 30px 320px;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
+.Infotext {
+  margin: 30px 320px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
-@media screen and (max-width: 768px){
-    .Infotext{
-        margin: 30px 40px;
-    }
-    
+@media screen and (max-width: 768px) {
+  .Infotext {
+    margin: 30px 40px;
+  }
 }

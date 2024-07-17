@@ -1,56 +1,53 @@
-.DoubtsTitle{
-    font-size: 32px;
-    font-weight: 700;
-    color: var(--color--secondary);
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
-    text-align: center;
+.DoubtsTitle {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--color--secondary);
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  text-align: center;
 }
 
-.doubt{
-    background-color: var(--color--secondary);
-    display: flex;
-    flex-direction: column;
-    width: 1280px;
-    height: 80px;
-    border-radius: 12px;
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
-    padding: 24px 8px;
-    gap: 16px;
-    overflow: hidden;
+.doubt {
+  background-color: var(--color--secondary);
+  display: flex;
+  flex-direction: column;
+  width: 1280px;
+  height: 80px;
+  border-radius: 12px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  padding: 24px 8px;
+  gap: 16px;
+  overflow: hidden;
 }
 
-.active{
-    height: 160px;
+.active {
+  height: 160px;
 }
 
-.topDoubt{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 12px 24px;
+.topDoubt {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 24px;
 }
 
 .doubt .regularP {
-    text-align: left;
-    padding: 0 80px 0 24px;
+  text-align: left;
+  padding: 0 80px 0 24px;
 }
 
-.ArrowDown2{
-    cursor: pointer;
+.ArrowDown2 {
+  cursor: pointer;
 }
 
-.click{
-    transform: rotate(180deg);
+.click {
+  transform: rotate(180deg);
 }
 
-@media screen and (max-width: 768px){
-    .doubt{
-        display: none;
-    }
-    
+@media screen and (max-width: 768px) {
+  .doubt {
+    display: none;
+  }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px){
-   
-    
+@media screen and (min-width: 768px) and (max-width: 1024px) {
 }
