@@ -15,6 +15,13 @@
   gap: 20px;
 }
 
+.socialMedia button {
+  border: none;
+  background-color: transparent;
+  box-shadow: none;
+  cursor: pointer;
+}
+
 .LogoKiko {
   height: 200px;
   width: 200px;
