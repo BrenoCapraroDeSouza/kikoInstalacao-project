@@ -54,7 +54,7 @@ const Projects = () => {
               key={img.id}
               src={img.src}
               type={img.type}
-              testeArray={imgArray}
+              carousel={imgArray}
             />
           );
         })}

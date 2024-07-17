@@ -1,8 +1,9 @@
 import './CardImg.css';
 import { useState } from 'react';
 import Modal from 'react-modal';
+import { Carousel } from 'react-responsive-carousel';
 
-const CardImg = ({ src, type }) => {
+const CardImg = ({ src, type, carousel }) => {
   const customStyles = {
     content: {
       top: '50%',
@@ -47,23 +48,53 @@ const CardImg = ({ src, type }) => {
         onClick={type !== 'L' ? openModal : null}
         className={generateClassByType(type)}
       >
-        {type == 'L' ? (
+        {type === 'L' ? (
           <video src={src} alt='Video de um projeto' controls />
         ) : (
-          <img src={src} alt='' />
+          <img src={src} alt='Imagem da ação' />
         )}
       </div>
+
       <Modal
         isOpen={modalIsOpen}
         onRequestClose={closeModal}
         style={customStyles}
-        shouldCloseOnEsc={true}
-        shouldCloseOnOverlayClick={true}
+        shouldCloseOnEsc
+        shouldCloseOnOverlayClick
       >
-        <button onClick={closeModal} className='close'>
-          X
-        </button>
-        <img src={src} alt='' />
+        <div
+          style={{
+            width: 512,
+            height: 512,
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            overflow: 'hidden',
+          }}
+        >
+          <Carousel
+            interval={5000}
+            infiniteLoop
+            dynamicHeight
+            showThumbs={false}
+            showIndicators={false}
+            showStatus={false}
+          >
+            {carousel
+              .filter(image => image.type !== 'L')
+              .map(image => (
+                <div key={image.id}>
+                  <img
+                    width='100%'
+                    height='100%'
+                    style={{ objectFit: 'cover' }}
+                    src={image.src}
+                    alt='Imagem da ação'
+                  />
+                </div>
+              ))}
+          </Carousel>
+        </div>
       </Modal>
     </>
   );
