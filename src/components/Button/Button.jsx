@@ -1,15 +1,13 @@
 import PropTypes from 'prop-types';
-import './Button.css'
+import './Button.css';
 
-function Button (props) {
-  return (
-    <button className={props.tipo}>{props.texto}</button>
-  )
+function Button(props) {
+  return <button className={props.tipo}>{props.texto}</button>;
 }
 
 Button.propTypes = {
   texto: PropTypes.string.isRequired,
-  tipo: PropTypes.string.isRequired
+  tipo: PropTypes.string.isRequired,
 };
 
-export default Button
+export default Button;

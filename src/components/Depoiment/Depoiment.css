@@ -1,40 +1,40 @@
-.depoiment{
-    display: flex;
-    flex-direction: column;
-    width: 305px;
-    height: 305px;
-    border-radius: 12px;
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
-    padding: 24px 8px;
-    gap: 48px;
+.depoiment {
+  display: flex;
+  flex-direction: column;
+  width: 305px;
+  height: 305px;
+  border-radius: 12px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  padding: 24px 8px;
+  gap: 48px;
 }
-.topCard{
-    display: flex;
-    align-items: center;
-    gap: 24px;
-}
-
-.topCard img{
-    width: 88px;
-    height: 88px;
+.topCard {
+  display: flex;
+  align-items: center;
+  gap: 24px;
 }
 
-.depoimentAuthor{
-    font-size: 20px;
-    font-weight: 500;
+.topCard img {
+  width: 88px;
+  height: 88px;
 }
 
-.depoiment .regularP{
-    padding: 0 18px;
-    text-align: left;
+.depoimentAuthor {
+  font-size: 20px;
+  font-weight: 500;
 }
 
-.one{
-    background-color: var(--color--primary);
-    color: var(--color--secondary);
+.depoiment .regularP {
+  padding: 0 18px;
+  text-align: left;
 }
 
-.two{
-    background-color: var(--color--secondary);
-    color: var(--color--tertiary);
+.one {
+  background-color: var(--color--primary);
+  color: var(--color--secondary);
+}
+
+.two {
+  background-color: var(--color--secondary);
+  color: var(--color--tertiary);
 }
