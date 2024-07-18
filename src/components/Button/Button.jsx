@@ -2,6 +2,11 @@ import PropTypes from "prop-types";
 import "./Button.css";
 
 function Button(props) {
+  
+  Button.propTypes = {
+    texto: PropTypes.string.isRequired,
+    tipo: PropTypes.string.isRequired,
+  };
   const DEFAULT_PHONE = "5548935052079";
   const classMessages = {
     projeto:
@@ -24,10 +29,5 @@ function Button(props) {
     </button>
   );
 }
-
-Button.propTypes = {
-  texto: PropTypes.string.isRequired,
-  tipo: PropTypes.string.isRequired,
-};
 
 export default Button;

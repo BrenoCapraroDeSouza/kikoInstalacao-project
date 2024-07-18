@@ -1,8 +1,13 @@
 import { useState } from 'react';
 import { ArrowDown2 } from '../../assets';
 import './Doubt.css';
+import PropTypes from "prop-types";
 
 const Doubt = ({ question, answer }) => {
+  Doubt.propTypes = {
+    question: PropTypes.string.isRequired,
+    answer: PropTypes.string.isRequired,
+  };
   const [open, setOpen] = useState(false);
   return (
     <div className={`doubt ${open ? 'active' : ''} `}>

@@ -1,6 +1,14 @@
 import './Depoiment.css';
-
+import PropTypes from "prop-types";
 const Depoiment = ({ type, perfilImg, author, text }) => {
+
+  Depoiment.propTypes = {
+    type: PropTypes.string.isRequired,
+    perfilImg: PropTypes.string.isRequired,
+    author: PropTypes.string.isRequired,
+    text: PropTypes.string.isRequired,
+  };
+
   return (
     <div className={`depoiment ${type}`}>
       <div className='topCard'>

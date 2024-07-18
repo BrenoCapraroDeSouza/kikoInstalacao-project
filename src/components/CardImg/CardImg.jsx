@@ -3,7 +3,15 @@ import { useState } from "react";
 import Modal from "react-modal";
 import { Carousel } from "react-responsive-carousel";
 
+import PropTypes from "prop-types";
+
 const CardImg = ({ id, src, type, carousel }) => {
+CardImg.propTypes = {
+  id: PropTypes.number.isRequired,
+  src: PropTypes.string.isRequired,
+  type: PropTypes.string.isRequired,
+  carousel: PropTypes.array.isRequired,
+};
   const customStyles = {
     content: {
       top: "50%",
