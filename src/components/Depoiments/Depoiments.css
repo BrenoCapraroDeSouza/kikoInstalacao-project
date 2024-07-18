@@ -18,3 +18,21 @@
   justify-content: center;
   gap: 20px;
 }
+
+@media screen and ((min-width: 768px) and (max-width: 1024px)) {
+  .Depoiments {
+    padding: 40px 60px;
+  }
+
+  
+}
+
+@media screen and ((min-width: 1024px) and (max-width: 1280px)) {
+  .Depoiments {
+    padding: 40px 120px;
+  }
+  .gallery-depoiments {
+    gap: 80px;
+  }
+  
+}

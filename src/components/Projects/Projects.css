@@ -27,8 +27,33 @@
 }
 
 @media screen and (max-width: 768px) {
+
+  .Projects {
+    margin: 30px 40px;
+  }
   .Projects Button {
     font-size: 20px;
     width: 100%;
+  }
+}
+
+@media screen and ((min-width: 768px) and (max-width: 1024px)) {
+  .Projects Button {
+    font-size: 40px;
+    width: 640px;
+  }
+  .gallery {
+    gap: 10px;
+  }
+}
+
+@media screen and ((min-width: 1024px) and (max-width: 1280px)) {
+  .Projects Button {
+    font-size: 48px;
+    width: 960px;
+  }
+  .gallery {
+    gap: 10px;
+    margin: 30px 160px;
   }
 }

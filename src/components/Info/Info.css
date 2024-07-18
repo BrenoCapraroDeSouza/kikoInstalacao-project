@@ -23,3 +23,9 @@
     margin: 30px 40px;
   }
 }
+
+@media screen and ((min-width: 768px) and (max-width: 1280px)) {
+  .Infotext {
+    margin: 30px 160px;
+  }
+}
