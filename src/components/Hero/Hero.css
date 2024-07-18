@@ -26,6 +26,7 @@
 
 .text {
   font-size: 24px;
+  backdrop-filter: blur(1px);
 }
 
 .NextSectionTitle {
@@ -53,6 +54,7 @@
 
   .title {
     font-size: 40px;
+    width: auto;
   }
 
   .text {
