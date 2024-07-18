@@ -52,7 +52,7 @@ const Resellers = () => {
           </div>
         </div>
       </div>
-      <Button tipo='revenda' texto='Peça Já o seu' />
+      <Button tipo='revenda' texto='Peça Agora o Seu' />
     </section>
   );
 };
