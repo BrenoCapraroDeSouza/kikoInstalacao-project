@@ -53,10 +53,8 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.886);
   }
-
-  .ReactModal__Content img {
-    width: 96%;
-    height: 96%;
+  .carousel-root{
+    width: 300px;
   }
 
   .close {
