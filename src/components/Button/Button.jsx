@@ -7,7 +7,7 @@ function Button(props) {
     texto: PropTypes.string.isRequired,
     tipo: PropTypes.string.isRequired,
   };
-  const DEFAULT_PHONE = "5548935052079";
+  const DEFAULT_PHONE = "5548999370107";
   const classMessages = {
     projeto:
       "Olá, gostaria de mais informações, estou construindo e preciso de um projeto.",
